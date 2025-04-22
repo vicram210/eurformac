@@ -1,12 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <stylesheet href="styles/index.css" type="text/css" rel="stylesheet" />
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="styles/index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/logo-color.png" alt="Euroformac" height="40" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Cursos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Empresas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero d-flex justify-content-center">
+      <div class="container">
+        <h1>Impulsamos tu futuro profesional</h1>
+        <p class="lead">
+          Formación gratuita para trabajadores, desempleados y empresas
+        </p>
+        <a href="#" class="btn btn-warning btn-lg mt-3">Ver cursos</a>
+      </div>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Áreas de formación</h2>
+        <div class="row text-center">
+          <div class="col-md-4">
+            <div class="card border-0 shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title">Cursos gratuitos</h5>
+                <p class="card-text">
+                  Formación subvencionada para trabajadores y desempleados.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card border-0 shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title">Bonificada para empresas</h5>
+                <p class="card-text">
+                  Capacita a tu equipo sin coste gracias a los créditos de
+                  FUNDAE.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card border-0 shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title">Formación online</h5>
+                <p class="card-text">
+                  Aprende desde cualquier lugar con nuestra plataforma de
+                  e-learning.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LOGOS DE CONFIANZA -->
+    <section class="bg-light py-5">
+      <div class="container text-center">
+        <h4 class="mb-4">Confían en nosotros</h4>
+        <div class="trusted-logos d-flex flex-wrap justify-content-center">
+          <img
+            src="https://www.euroformac.com/wp-content/uploads/2022/02/iberdrola-1.png"
+            alt="Iberdrola"
+          />
+          <img
+            src="https://www.euroformac.com/wp-content/uploads/2022/02/telefonica-1.png"
+            alt="Telefonica"
+          />
+          <img
+            src="https://www.euroformac.com/wp-content/uploads/2022/02/endesa-1.png"
+            alt="Endesa"
+          />
+          <img
+            src="https://www.euroformac.com/wp-content/uploads/2022/02/repsol-1.png"
+            alt="Repsol"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="text-center">
+      <div class="container">
+        <p class="mb-0">© 2025 Euroformac. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
