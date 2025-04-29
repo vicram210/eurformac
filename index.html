@@ -14,7 +14,6 @@
     <link rel="icon" href="images/logo-color-icon.png" type="image/png" />
   </head>
   <body>
-    <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg">
       <div class="container">
         <a class="navbar-brand" href="index.html">
@@ -28,30 +27,46 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
+
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
+          <ul class="navbar-nav ms-auto align-items-center">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-white"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Nosotros
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Conócenos</a></li>
+                <li><a class="dropdown-item" href="#">Casos de éxito</a></li>
+                <li><a class="dropdown-item" href="#">Equipo</a></li>
+                <li><a class="dropdown-item" href="#">+25 años</a></li>
+              </ul>
+            </li>
+
             <li class="nav-item">
-              <a class="nav-link text-white" href="#">Inicio</a>
+              <a class="nav-link text-white" href="#">RSC</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#">Cursos</a>
+              <a class="nav-link text-white" href="#">Actualidad</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#">Empresas</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#">Contacto</a>
+
+            <li class="nav-item ms-3">
+              <a class="btn btn-warning btn-lg" href="#">Contacto</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <!-- HERO -->
     <section
       class="hero d-flex justify-content-center align-items-center position-relative"
     >
-      <!-- Video de fondo -->
       <video
         autoplay
         muted
@@ -63,89 +78,105 @@
         Tu navegador no soporta el vídeo.
       </video>
 
-      <!-- Capa semitransparente azul -->
       <div
         class="video-overlay position-absolute top-0 start-0 w-100 h-100 z-n1"
       ></div>
 
-      <!-- Contenido (texto) -->
       <div class="container text-white text-center position-relative z-1">
         <h1 class="color-logo">Impulsamos tu futuro profesional</h1>
         <p class="lead">
-          Formación <span class="bold">gratuita</span> para trabajadores, desempleados y empresas
+          Formación <span class="bold">gratuita</span> para trabajadores,
+          desempleados y empresas
         </p>
-        <a href="#" class="btn btn-warning btn-lg mt-3 ">Ver cursos</a>
+
+        <div class="mt-4 d-flex justify-content-center gap-3 flex-wrap">
+          <a href="src/login.html" class=" btn-iniciar">Iniciar sesión</a>
+          <a href="src/register.html" class=" btn-registrarse">Registrarse</a>
+        </div>
       </div>
     </section>
 
     <!-- SERVICIOS -->
-    <section class="py-10">
+    <section class="py-10 bloque-servicio-individual">
       <div class="container">
-        <h2 class="text-center mb-4">Áreas de formación</h2>
-        <div class="row text-center">
+        <h2 class="text-center mb-5">Áreas de formación</h2>
+        <div class="row g-4">
           <div class="col-md-4">
-            <div class="card border-0 shadow-sm">
-              <div class="card-body">
-                <h5 class="card-title">Cursos gratuitos</h5>
-                <p class="card-text">
-                  Formación subvencionada para trabajadores y desempleados.
-                </p>
-              </div>
+            <div
+              class="formation text-center shadow-sm p-4 h-100 d-flex flex-column justify-content-center"
+            >
+              <h5 class="card-title mb-3">Cursos gratuitos</h5>
+              <p class="card-text">
+                Formación subvencionada para trabajadores y desempleados.
+              </p>
             </div>
           </div>
           <div class="col-md-4">
-            <div class="card border-0 shadow-sm">
-              <div class="card-body">
-                <h5 class="card-title">Bonificada para empresas</h5>
-                <p class="card-text">
-                  Capacita a tu equipo sin coste gracias a los créditos de
-                  FUNDAE.
-                </p>
-              </div>
+            <div
+              class="formation text-center shadow-sm p-4 h-100 d-flex flex-column justify-content-center"
+            >
+              <h5 class="card-title mb-3">Bonificada para empresas</h5>
+              <p class="card-text">
+                Capacita a tu equipo sin coste gracias a los créditos de FUNDAE.
+              </p>
             </div>
           </div>
           <div class="col-md-4">
-            <div class="card border-0 shadow-sm">
-              <div class="card-body">
-                <h5 class="card-title">Formación online</h5>
-                <p class="card-text">
-                  Aprende desde cualquier lugar con nuestra plataforma de
-                  e-learning.
-                </p>
-              </div>
+            <div
+              class="formation text-center shadow-sm p-4 h-100 d-flex flex-column justify-content-center"
+            >
+              <h5 class="card-title mb-3">Formación online</h5>
+              <p class="card-text">
+                Aprende desde cualquier lugar con nuestra plataforma de
+                e-learning.
+              </p>
             </div>
           </div>
         </div>
       </div>
     </section>
 
+    <div class="text-center ver-cursos bloque-servicio-individual">
+      <a href="#" class="btn-hablamos">VER CURSOS</a>
+    </div>
+
     <!-- LOGOS DE CONFIANZA -->
-    <section class="bg-light py-5">
+    <section class="bg-light py-5 bloque-servicio-individual">
       <div class="container text-center">
-        <h4 class="mb-4">Confían en nosotros</h4>
-        <div class="trusted-logos d-flex flex-wrap justify-content-center">
-          <img
-            src="https://www.euroformac.com/wp-content/uploads/2022/02/iberdrola-1.png"
-            alt="Iberdrola"
-          />
-          <img
-            src="https://www.euroformac.com/wp-content/uploads/2022/02/telefonica-1.png"
-            alt="Telefonica"
-          />
-          <img
-            src="https://www.euroformac.com/wp-content/uploads/2022/02/endesa-1.png"
-            alt="Endesa"
-          />
-          <img
-            src="https://www.euroformac.com/wp-content/uploads/2022/02/repsol-1.png"
-            alt="Repsol"
-          />
+        <h4 class="mb-5">Confían en nosotros</h4>
+        <div
+          class="trusted-logos d-flex flex-wrap justify-content-center gap-4"
+        >
+          <div class="logo-item">
+            <img
+              src="https://www.liderlogo.es/wp-content/uploads/2022/12/IBE.MC-a357ed2a.png"
+              alt="Iberdrola"
+            />
+          </div>
+          <div class="logo-item">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8UXgTHju6-q431q56-SwGOZyB6VOYIx_jew&s"
+              alt="Telefonica"
+            />
+          </div>
+          <div class="logo-item">
+            <img
+              src="https://graffica.info/wp-content/uploads/2016/01/Captura-de-pantalla-2016-01-28-a-las-19.00.55.jpg"
+              alt="Endesa"
+            />
+          </div>
+          <div class="logo-item">
+            <img
+              src="https://www.brandemia.org/wp-content/uploads/2012/06/logo_repsol_principal.jpg"
+              alt="Repsol"
+            />
+          </div>
         </div>
       </div>
     </section>
 
     <!-- FOOTER -->
-    <footer class="text-center">
+    <footer class="text-center bloque-servicio-individual">
       <div class="container">
         <p class="mb-0">© 2025 Euroformac. Todos los derechos reservados.</p>
       </div>

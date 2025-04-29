@@ -1,0 +1,26 @@
+body {
+  background-image: url("https://static.comunicae.com/photos/notas/1254003/IMG_FP_Euroformac.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0px 90%;
+  min-height: 100vh;
+}
+
+.menu {
+  background-color: #003f5a;
+  padding: 1rem 0;
+}
+
+.img-center {
+  text-align: center;
+}
+
+.blue-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 63, 90, 0.5); /* azul oscuro con opacidad */
+  z-index: -1;
+}
