@@ -24,3 +24,29 @@ body {
   background-color: rgba(0, 63, 90, 0.5); /* azul oscuro con opacidad */
   z-index: -1;
 }
+
+.container-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+footer {
+  background-color: #003f5a;
+  color: #fbb900;
+  padding: 1rem 2rem;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 1.5;
+  font-family: "Arial", sans-serif;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 0 auto;
+  max-width: 1200px;
+}
