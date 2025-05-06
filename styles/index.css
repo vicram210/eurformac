@@ -26,6 +26,40 @@
   font-weight: bold;
 }
 
+/* Estilo mejorado para el botón de contacto */
+.btn-contacto {
+  background-color: #fbb900;
+  color: #003f5a;
+  font-weight: bold;
+  border: 2px solid #fbb900;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.btn-contacto:hover {
+  background-color: #003f5a;
+  color: #fbb900;
+  border-color: #003f5a;
+  transform: scale(1.1);
+}
+
+.navbar .btn-contacto {
+  background-color: #fbb900;
+  color: #003f5a;
+  font-weight: bold;
+  border: 2px solid #fbb900;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.navbar .btn-contacto:hover {
+  background-color: #003f5a;
+  color: #fbb900;
+  border-color: #003f5a;
+  transform: scale(1.1);
+}
+
 .bold {
   font-weight: bold;
 }
@@ -159,10 +193,67 @@
   filter: grayscale(0%);
 }
 
-footer {
-  background-color: #f8f9fa;
-  padding: 2rem 0;
+.footer-euroformac {
+  background-color: #003f5a;
+  color: white;
+  padding: 1rem 2rem;
+  text-align: center;
+  font-size: 0.85rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 1.5;
+  font-family: "Arial", sans-serif;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+.footer-euroformac p,
+.footer-euroformac li,
+.footer-euroformac a,
+.footer-euroformac h6 {
+  font-size: 0.85rem;
+}
+
+.footer-euroformac h6 {
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer-euroformac .social-icon {
+  width: 48px;
+  height: 48px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+  border-radius: 50%;
+}
+
+.footer-euroformac .social-icon i {
+  font-size: 20px !important;
+}
+
+.footer-euroformac .social-icon:hover {
+  transform: scale(1.1);
+}
+
+.footer-euroformac .btn-sm {
+  font-size: 0.75rem;
+  padding: 4px 10px;
+}
+
+.footer-euroformac .bg-warning {
+  font-size: 0.85rem;
+  padding: 0.75rem 1rem;
+}
+
+.footer-euroformac .text-center.small {
+  font-size: 0.75rem;
+}
+
 
 @keyframes show2 {
   from {

@@ -7,11 +7,13 @@
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
-      crossorigin="anonymous"
     />
-    <link rel="icon" href="images/logo-color-icon.png" type="image/png" />
-	<link rel="stylesheet" href="../styles/about.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link rel="icon" href="../images/logo-color-icon.png" type="image/png" />
+    <link rel="stylesheet" href="../styles/about.css" />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg">
@@ -34,42 +36,177 @@
               <a
                 class="nav-link dropdown-toggle text-white"
                 href="#"
-                id="navbarDropdown"
-                role="button"
                 data-bs-toggle="dropdown"
-                aria-expanded="false"
+                >Nosotros</a
               >
-                Nosotros
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <ul class="dropdown-menu">
                 <li>
-                  <a class="dropdown-item" href="src/about.html">Conócenos</a>
+                  <a class="dropdown-item" href="about.html">Conócenos</a>
                 </li>
                 <li><a class="dropdown-item" href="#">Casos de éxito</a></li>
                 <li><a class="dropdown-item" href="#">Equipo</a></li>
                 <li><a class="dropdown-item" href="#">+25 años</a></li>
               </ul>
             </li>
-
             <li class="nav-item">
               <a class="nav-link text-white" href="#">RSC</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-white" href="#">Actualidad</a>
             </li>
-
             <li class="nav-item ms-3">
-              <a class="btn btn-warning btn-lg" href="#">Contacto</a>
+              <a class="btn btn-warning btn-lg btn-contacto" href="contacto.html"
+                >Contacto</a
+              >
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
-      crossorigin="anonymous"
-    ></script>
+    <section class="container my-5">
+      <div class="row align-items-center">
+        <div class="col-md-6 text-center">
+          <div class="img-overlay-container">
+            <img
+              src="../images/conocenos2.jpeg"
+              alt="Euroformac"
+              class="img-fluid img-small rounded-4 shadow"
+            />
+            <div
+              class="blue-overlay position-absolute top-0 start-0 h-100 rounded-4"
+            ></div>
+          </div>
+        </div>
+
+        <div class="col-md-6 text">
+          <h2 class="mb-4">¿Quiénes somos?</h2>
+          <p>
+            En Euroformac, nuestro objetivo es diagnosticar, planificar,
+            ejecutar y evaluar
+            <strong>las necesidades de formación</strong> de empresas,
+            organizaciones y otros colectivos.
+          </p>
+          <p>
+            Queremos ser una referencia válida en el mercado nacional y
+            satisfacer necesidades explícitas e implícitas de nuestros clientes.
+          </p>
+          <p>
+            Nuestro equipo pone a disposición los recursos necesarios para el
+            buen desarrollo de la actividad, promoviendo la comunicación y
+            manteniendo la ética profesional. Actualizamos metodologías,
+            herramientas y contenidos constantemente.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer-euroformac py-5">
+      <div class="container">
+        <div class="row text-center text-md-start align-items-start gy-4">
+          <div class="col-md-3 text-center text-md-start">
+            <img
+              src="../images/logo-blanco.png"
+              alt="Euroformac"
+              height="70"
+              class="mb-2"
+            />
+            <div
+              class="bg-warning text-dark py-3 rounded-4 shadow-sm mt-3"
+              style="max-width: 200px"
+            >
+              <strong>CURSOS<br />100% SUBVENCIONADOS</strong>
+              <div class="mt-2">
+                <a
+                  href="https://cursosgratuitos.grupoeuroformac.com/#?utm_source=webeuroformac&utm_medium=banner-consulta-cursos&utm_campaign=wpeuro2023"
+                  target="_blank"
+                  class="btn btn-light btn-sm"
+                  >AQUÍ</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <h6 class="text-uppercase small mb-3">Redes sociales</h6>
+            <div
+              class="d-flex gap-2 justify-content-center justify-content-md-start"
+            >
+              <a
+                href="https://twitter.com/GrupoEuroformac?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+                target="_blank"
+                class="social-icon bg-warning text-dark rounded-circle"
+                ><i class="bi bi-twitter"></i
+              ></a>
+              <a
+                href="https://www.facebook.com/grupoeuroformac/"
+                target="_blank"
+                class="social-icon bg-warning text-dark rounded-circle"
+                ><i class="bi bi-facebook"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/company/grupo-euroformac/mycompany/"
+                target="_blank"
+                class="social-icon bg-warning text-dark rounded-circle"
+                ><i class="bi bi-linkedin"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/grupoeuroformac/"
+                target="_blank"
+                class="social-icon bg-warning text-dark rounded-circle"
+                ><i class="bi bi-instagram"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <h6 class="text-uppercase small mb-3">Contacto</h6>
+            <p class="mb-1">info@grupoeuroformac.com</p>
+            <p class="mb-0">900 852 425</p>
+          </div>
+
+          <div class="col-md-3">
+            <h6 class="text-uppercase small mb-3">Enlaces de interés</h6>
+            <ul class="list-unstyled small">
+              <li>
+                <a href="#" class="text-white text-decoration-none"
+                  >Conócenos</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none">RSC</a>
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none"
+                  >Trabaja con nosotros</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <hr class="my-4 text-white" />
+
+        <div class="text-center small">
+          © EUROFORMAC 2024 &nbsp; | &nbsp;
+          <a href="#" class="text-white text-decoration-none">Envia tu CV</a>
+          &nbsp; | &nbsp;
+          <a href="#" class="text-white text-decoration-none">Buzón SQRAD</a>
+          &nbsp; | &nbsp;
+          <a href="#" class="text-white text-decoration-none">Políticas</a>
+          &nbsp; | &nbsp;
+          <a href="#" class="text-white text-decoration-none">Aviso Legal</a>
+          &nbsp; | &nbsp;
+          <a href="#" class="text-white text-decoration-none">Privacidad</a>
+          &nbsp; | &nbsp;
+          <a href="#" class="text-white text-decoration-none">Cookies</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
